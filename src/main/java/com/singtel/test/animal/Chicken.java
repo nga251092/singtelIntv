@@ -21,6 +21,7 @@ public class Chicken extends Bird {
         }
     }
 
-    public void fly() {
+    public boolean fly() {
+        return false;
     }
 }
